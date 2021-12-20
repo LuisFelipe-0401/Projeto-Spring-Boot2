@@ -1,4 +1,4 @@
-package com.LuisFeipe;
+package com.example.demo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
