@@ -1,4 +1,4 @@
-package com.LuisFelipe;
+package com.example.demo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,8 +10,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.LuisFelipe.domain.Cidade;
-import com.LuisFelipe.domain.repositories.CidadeRepository;
+import com.example.demo.domain.Cidade;
+import com.example.demo.domain.repositories.CidadeRepository;
 
 @SpringBootTest
 public class CidadeTest {
