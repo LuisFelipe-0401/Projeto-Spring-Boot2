@@ -34,6 +34,28 @@ public class Cliente implements Serializable {
 	@ElementCollection 
 	@CollectionTable(name = "TELEFONE") 
 	private Set<String> telefones = new HashSet<>();
+	
+	@OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
+	private List<Endereco> enderecos = new ArrayList<>();
+
+	public Cliente() {
+	}
+	public double somar(double num1, double num2) {
+        return num1 + num2;
+    }
+
+    public double subtrair(double num1, double num2) {
+        return num1 - num2;
+    }
+
+    public double multiplicar(double num1, double num2) {
+        return num1 * num2;
+    }
+
+    public double dividir(double num1, double num2) {
+        return num1 / num2;
+    }
+
 
 public Cliente() {
 }
