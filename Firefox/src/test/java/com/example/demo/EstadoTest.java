@@ -7,8 +7,8 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import com.LuisFelipe.domain.Estado;
-import com.LuisFelipe.domain.repositories.EstadoRepository;
+import com.example.demo.domain.Estado;
+import com.example.demo.domain.repositories.EstadoRepository;
 
 
 
